@@ -21,7 +21,7 @@ const Navbar = () => {
            { navIcons.map((items)=>{
              return <li  key={items.id}><img className='h-[20px]' src={items.img} alt="" /></li>
             })}
-        <time className='font-extrabold'>{dayjs().format("ddd MMM D h:mm A")}</time>
+        <time className='font-extrabold text-[19px]'>{dayjs().format("ddd MMM D h:mm A")}</time>
         </ul>
      </nav>
   )
