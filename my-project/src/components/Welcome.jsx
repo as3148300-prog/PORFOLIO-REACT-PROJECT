@@ -41,7 +41,7 @@ const Welcome = () => {
       });
     };
 
-    addHover(titleSplit.chars, 400, 600);
+    addHover(titleSplit.chars, 400, 700);
     addHover(subtitleSplit.chars, 100, 400);
 
     return () => {

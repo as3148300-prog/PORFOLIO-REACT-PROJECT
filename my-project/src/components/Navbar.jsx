@@ -12,10 +12,10 @@ const Navbar = () => {
           Areeb's Portfolio
         </p>
 
-        <div className="flex gap-8 ml-10">
+        <div className="flex gap-8 ml-10 ">
           {navLinks.map((item) => (
             <h3
-            className="text-[20px]  cursor-pointer"
+            className="text-[20px]   "
               key={item.id}
             >
               {item.name}

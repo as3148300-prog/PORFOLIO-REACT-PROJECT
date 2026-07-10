@@ -5,7 +5,7 @@ import gsap from "gsap";
 const Dock = () => {
   const handleEnter = (e) => {
     gsap.to(e.currentTarget, {
-      y: -10,
+      y: -15,
       duration: 0.3,
       ease: "power2.out",
     });
