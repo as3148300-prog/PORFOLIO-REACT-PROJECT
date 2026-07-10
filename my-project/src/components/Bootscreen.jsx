@@ -21,7 +21,7 @@ const Bootscreen = () => {
 
     gsap.to("#boot", {
       opacity: 0,
-      duration: 1,
+      duration: 2,
       delay: 4.8,
       ease: "power2.in",
       display: "none",
