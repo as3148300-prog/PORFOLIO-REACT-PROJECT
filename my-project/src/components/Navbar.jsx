@@ -5,18 +5,18 @@ import dayjs from "dayjs";
 const Navbar = () => {
   return (
     <nav className="flex justify-between items-center px-10 py-5 text-white">
-      <div className="flex items-center gap-5">
+      <div className="flex items-center  gap-5">
         <img className="h-7" src="/images/logo.svg" alt="logo" />
 
-        <p className="font-bold text-2xl">
+        <p className="font-bold text-[15px]">
           Areeb's Portfolio
         </p>
 
         <div className="flex gap-8 ml-10">
           {navLinks.map((item) => (
             <h3
+            className="text-[20px]  cursor-pointer"
               key={item.id}
-              className="text-xl cursor-pointer hover:underline"
             >
               {item.name}
             </h3>
@@ -26,8 +26,8 @@ const Navbar = () => {
 
       <ul className="flex items-center gap-5">
         {navIcons.map((item) => (
-          <li key={item.id}>
-            <img className="h-5" src={item.img} alt="" />
+          <li  key={item.id}>
+            <img className="h-[15px]" src={item.img} alt="" />
           </li>
         ))}
 
